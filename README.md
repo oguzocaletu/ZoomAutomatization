@@ -33,3 +33,8 @@ https://pyautogui.readthedocs.io/en/latest/install.html
 **Note: windows users**
 
 The code to open zoom is different for windows, this is shown in the main.py file make the changes accordingly.
+To use as a desktop app:
+
+pip install pyinstaller
+C:\Users\Ron\Desktop\MyPython
+pyinstaller --onefile main.py
